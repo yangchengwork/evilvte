@@ -64,7 +64,8 @@
 // #define DEFAULT_TERMINAL_SIZE  80x24
 // #define EXPORT_WINDOWID        TRUE
 // #define FONT                   "Monospace 10"
-// #define FONT_ANTI_ALIAS        TRUE
+#define FONT                   "Inconsolata Medium 16"
+#define FONT_ANTI_ALIAS        TRUE
 // #define FONT_ENABLE_BOLD_TEXT  TRUE
 // #define MOUSE_CTRL_SATURATION  TRUE  /* Scroll left or right to adjust it  */
 // #define MOUSE_CURSOR_AUTOHIDE  TRUE
@@ -81,7 +82,7 @@
 // #define SHOW_WINDOW_BORDER     TRUE
 // #define SHOW_WINDOW_DECORATED  TRUE
 #define    SHOW_WINDOW_ICON       TRUE
-#define    STATUS_BAR             TRUE
+// #define    STATUS_BAR             TRUE
 // #define WINDOW_TITLE_DYNAMIC   TRUE  /* for xterm escape sequences         */
 #define    WORD_CHARS             "-A-Za-z0-9_$.+!*(),;:@&=?/~#%"
 
