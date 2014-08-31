@@ -75,7 +75,7 @@
 // #define RECORD_LASTLOG         TRUE
 // #define RECORD_UTMP            TRUE
 // #define RECORD_WTMP            TRUE
-// #define SCROLL_LINES           1000  /* Negative value means unlimited     */
+#define SCROLL_LINES           10000  /* Negative value means unlimited     */
 // #define SCROLL_ON_KEYSTROKE    TRUE
 // #define SCROLL_ON_OUTPUT       TRUE
 #define    SCROLLBAR              RIGHT /* Options: LEFT, RIGHT, OFF_L, OFF_R */
@@ -94,6 +94,7 @@
 // #define      MATCH_STRING_HTTP TRUE      /* Detect http(s) and ftp(s)      */
 // #define      MATCH_STRING_MAIL TRUE      /* Detect mailto:                 */
 // #define      MATCH_STRING_FILE TRUE      /* Detect file:///                */
+#define MENU_CUSTOM            "Copy", "Paste"
 // #define MENU_CUSTOM            "Copy", "Separator", "Paste", "Separator"
            /* Options: "Copy",         "Zoom in",       "Add tab",
             *          "Paste",        "Zoom out",      "Remove tab",
