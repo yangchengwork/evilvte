@@ -1,6 +1,6 @@
 /* Use // to disable options                                                  */
 
-#define    BACKGROUND_IMAGE       ".config/evilvte/background.png"
+// #define    BACKGROUND_IMAGE       ".config/evilvte/background.png"
 // #define BACKGROUND_SATURATION  0.4
 // #define BACKGROUND_SCROLLABLE  TRUE
 // #define BACKGROUND_TINT_COLOR  "black"
@@ -47,12 +47,12 @@
 // #define COMMAND_SATURATION     TRUE  /* -sa option, saturation level       */
 // #define COMMAND_DOCK_MODE      TRUE  /* -d option, run as a dock           */
 #define    COMMAND_EXEC_PROGRAM   TRUE  /* -e option, execute program         */
-// #define COMMAND_FULLSCREEN     TRUE  /* -f option, init in fullscreen mode */
-// #define COMMAND_FONT           TRUE  /* -fn option, to assign font & size  */
+#define COMMAND_FULLSCREEN     TRUE  /* -f option, init in fullscreen mode */
+#define COMMAND_FONT           TRUE  /* -fn option, to assign font & size  */
 // #define COMMAND_GEOMETRY       TRUE  /* -g +X+Y option, to assign geometry */
 // #define COMMAND_LOGIN_SHELL    TRUE  /* -ls option, to enable login shell  */
 // #define COMMAND_SET_TITLE      TRUE  /* -T or -title to set program title  */
-// #define COMMAND_SHOW_HELP      TRUE  /* -h option, show help               */
+#define COMMAND_SHOW_HELP      TRUE  /* -h option, show help               */
 #define    COMMAND_SHOW_OPTIONS   TRUE  /* -o option, show build-time options */
 #define    COMMAND_SHOW_VERSION   TRUE  /* -v option, show program version    */
 // #define COMMAND_TAB_NUMBERS    TRUE  /* -[2-9] options, to set tab numbers */
@@ -64,7 +64,8 @@
 // #define DEFAULT_TERMINAL_SIZE  80x24
 // #define EXPORT_WINDOWID        TRUE
 // #define FONT                   "Monospace 10"
-#define FONT                   "Inconsolata Medium 16"
+// #define FONT                   "Inconsolata Medium 16"
+#define FONT                   "Iosevka Term Medium 20"
 #define FONT_ANTI_ALIAS        TRUE
 // #define FONT_ENABLE_BOLD_TEXT  TRUE
 // #define MOUSE_CTRL_SATURATION  TRUE  /* Scroll left or right to adjust it  */
