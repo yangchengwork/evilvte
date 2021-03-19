@@ -1,10 +1,10 @@
 /* Use // to disable options                                                  */
 
 // #define    BACKGROUND_IMAGE       ".config/evilvte/background.png"
-// #define BACKGROUND_SATURATION  0.4
+#define BACKGROUND_SATURATION  0.2
 // #define BACKGROUND_SCROLLABLE  TRUE
 // #define BACKGROUND_TINT_COLOR  "black"
-// #define BACKGROUND_TRANSPARENT TRUE  /* Pseudo transparent background      */
+#define BACKGROUND_TRANSPARENT TRUE  /* Pseudo transparent background      */
 // #define BACKGROUND_OPACITY     TRUE  /* True transparent background        */
 // #define BACKSPACE_KEY /* Options: AUTO, BACKSPACE, DELETE, ERASE_TTY,      */
                          /*          DELETE_SEQUENCE                          */
@@ -60,7 +60,7 @@
 // #define CURSOR_COLOR           "blue"
 // #define CURSOR_SHAPE  /* Options: BLOCK, IBEAM, UNDERLINE                  */
 // #define DEFAULT_COMMAND        g_getenv("SHELL")
-// #define DEFAULT_DIRECTORY      g_get_current_dir()
+#define DEFAULT_DIRECTORY      g_get_current_dir()
 // #define DEFAULT_TERMINAL_SIZE  80x24
 // #define EXPORT_WINDOWID        TRUE
 // #define FONT                   "Monospace 10"
@@ -118,7 +118,7 @@
 
 #define    TAB                    TRUE
 // #define TAB_BORDER             0
-// #define TAB_CLOSE_BUTTON       TRUE
+#define TAB_CLOSE_BUTTON       TRUE
 // #define TAB_EXPANDED_WIDTH     TRUE
 // #define TAB_LABEL              "Page %u" /* %u will be replaced by numbers */
 // #define TAB_LABEL_DYNAMIC      TRUE      /* for xterm escape sequences     */
@@ -129,7 +129,7 @@
 // #define TAB_SHOW_INFO_AT_TITLE TRUE
 // #define TABBAR                 TRUE
 // #define TABBAR_PLACE           TOP    /* Options: TOP, BOTTOM, LEFT, RIGHT */
-// #define TABBAR_AUTOHIDE        TRUE
+#define TABBAR_AUTOHIDE        TRUE
 // #define TABBAR_SCROLLABLE      TRUE
 // #define TABBAR_MENU_SELECT_TAB TRUE
 
@@ -178,7 +178,7 @@
 #define    HOTKEY_TAB_NEXT              CTRL(GDK_Page_Down)
 // #define HOTKEY_TAB_FIRST             CTRL(GDK_Home)
 // #define HOTKEY_TAB_LAST              CTRL(GDK_End)
-// #define ALT_NUMBER_GO_TO_TAB_NUMBER  TRUE
+#define ALT_NUMBER_GO_TO_TAB_NUMBER  TRUE
 // #define CTRL_NUMBER_GO_TO_TAB_NUMBER TRUE
 // #define HOTKEY_TAB_EDIT_LABEL        CTRL_SHIFT(GDK_E) || CTRL_SHIFT(GDK_e)
 // #define HOTKEY_TOGGLE_ANTI_ALIAS     CTRL_SHIFT(GDK_L) || CTRL_SHIFT(GDK_l)
