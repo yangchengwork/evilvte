@@ -64,8 +64,8 @@
 // #define DEFAULT_TERMINAL_SIZE  80x24
 // #define EXPORT_WINDOWID        TRUE
 // #define FONT                   "Monospace 10"
-// #define FONT                   "Inconsolata Medium 16"
-#define FONT                   "Iosevka Term Medium 20"
+#define FONT                   "Inconsolata Medium 20"
+// #define FONT                   "Iosevka Term Medium 20"
 #define FONT_ANTI_ALIAS        TRUE
 // #define FONT_ENABLE_BOLD_TEXT  TRUE
 // #define MOUSE_CTRL_SATURATION  TRUE  /* Scroll left or right to adjust it  */
@@ -123,7 +123,7 @@
 // #define TAB_LABEL              "Page %u" /* %u will be replaced by numbers */
 // #define TAB_LABEL_DYNAMIC      TRUE      /* for xterm escape sequences     */
 // #define TAB_LABEL_CUSTOM       "One", "Two", "Three", "Four", "Five", "Six"
-// #define TAB_NEW_PATH_EQUAL_OLD TRUE
+#define TAB_NEW_PATH_EQUAL_OLD TRUE
 // #define TAB_NEW_TAB_AT_TAB_ONE TRUE   /* New tab will always the first tab */
 // #define TAB_REORDERABLE        TRUE
 // #define TAB_SHOW_INFO_AT_TITLE TRUE

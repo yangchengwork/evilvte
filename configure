@@ -81,10 +81,10 @@ if [ "$with_gtk" = "2.0" ]; then
 fi
 
 if [ "$with_gtk" = "3.0" ]; then
-  VTEINC=`pkg-config --cflags vte-2.91 2> /dev/null`
-  [ $? != 0 ] && exec pkg-config --cflags vte-2.91
-  LIBS_VTE="-lgdk-3 -lgtk-3 -lvte2_91"
-  LIBS_VTE_L=`pkg-config --libs-only-L vte-2.91 2> /dev/null`
+  VTEINC=`pkg-config --cflags vte 2> /dev/null`
+  [ $? != 0 ] && exec pkg-config --cflags vte
+  LIBS_VTE="-lgdk-3 -lgtk-3 -lvte"
+  LIBS_VTE_L=`pkg-config --libs-only-l vte 2> /dev/null`
   ln -sf gtk3.c src/evilvte.c
 fi
 
